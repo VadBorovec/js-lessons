@@ -1,21 +1,21 @@
 {
-  "name": "goit-js-hw-11",
+  "name": "js-lessons",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://VadBorovec.github.io/goit-js-hw-11",
+  "homepage": "https://VadBorovec.github.io/js-lessons",
   "scripts": {
     "start": "parcel src/*.html --open",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-11/"
+    "build": "parcel build src/*.html --public-url /js-lessons/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VadBorovec/goit-js-hw-11.git"
+    "url": "git+https://github.com/VadBorovec/js-lessons.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/VadBorovec/goit-js-hw-11/issues"
+    "url": "https://github.com/VadBorovec/js-lessons/issues"
   },
   "dependencies": {
     "axios": "^1.3.5",
