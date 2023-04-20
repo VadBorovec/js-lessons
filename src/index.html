@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- HEAD -->
+<include src="./partials/head.html"></include>
+
+<body>
+
+  <!-- HEADER -->
+  <include src="./partials/header.html"></include>
+  <h2 class="hidden page-title">Homework 11</h2>
+
+  <!-- MAIN -->
+  <main class="main">
+    <form class="search-form" id="search-form">
+      <input type="text" name="searchQuery" autocomplete="off" placeholder="Search images..." />
+      <button type="submit" class="back-btn">Search</button>
+    </form>
+    <div class="gallery" id="gallery">
+      <!-- Картки зображень -->
+    </div>
+    <button type="button" class="back-btn" id="loadMore">Load more</button>
+  </main>
+
+  <!-- FOOTER -->
+  <include src="./partials/footer.html"></include>
+
+  <!-- JS -->
+  <script src="./partials/11-background-color.js" type="module"></script>
+  <script src="./partials/12-scroll-to-top.js" type="module"></script>
+  <script src="./partials/13-page-title.js" type="module"></script>
+  <script src="./index.js" type="module"></script>
+
+</body>
+
+</html>
